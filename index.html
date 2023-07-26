@@ -20,8 +20,8 @@
           class="display"
           data-passwordDisplay
         />
-        <button>
-          <span>Copied</span>
+        <button data-copy>
+          <span data-copyMsg></span>
           <i class="fa-regular fa-copy"></i>
         </button>
       </div>
@@ -62,21 +62,26 @@
           <label for="symbols">Include Symbols</label>
         </div>
 
-
         <!-- strength section -->
 
         <div class="strength-container">
+          <p>Strength</p>
 
-            <p>Strength</p>
-
-            <div data-indicator>Circle</div>
+          <div
+            data-indicator
+            style="
+              border: 1px solid black;
+              width: 20px;
+              height: 20px;
+              border-radius: 10px;
+              border: none;
+            "
+          ></div>
         </div>
 
         <!-- generate password button -->
 
         <button class="generateButton">GENERATE PASSWORD</button>
-
-
       </div>
     </div>
 
