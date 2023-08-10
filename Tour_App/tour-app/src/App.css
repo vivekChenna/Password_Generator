@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+}
+
+span {
+  color: blue;
+  cursor: pointer;
+}
+
+.refresh-pg {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  gap: 1rem;
+}
+
+.refresh-btn {
+  width: 8rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid gray;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.refresh-btn:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.title {
+  border: 7px dashed rgb(1, 17, 160);
+  font-size: 3rem;
+  border-radius: 20px;
+  margin: 6vh;
+  padding: 1vh 5vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* .card > img {
+  height: 300px;
+  width: 300px;
+} */
+
+.card {
+  width: 400px;
+  height: max-content;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 10px gray;
+  border-radius: 10px;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.tour-img {
+  width: 380px;
+  height: 300px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.btn-red {
+  width: max-content;
+  font-weight: 600;
+  height: 2.4rem;
+  font-size: 19px;
+  border-radius: 6px;
+  border: none;
+  padding: 0 10px;
+}
+
+.btn-red:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tour-info {
+  margin: 10px 5px;
+  /* border: 1px solid red; */
+}
+
+.tour-price {
+  color: green;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.tour-name {
+  font-weight: 900;
+  font-size: 24px;
+  margin: 1px;
+}
